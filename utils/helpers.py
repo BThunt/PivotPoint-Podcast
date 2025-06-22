@@ -71,17 +71,6 @@ def estimate_reading_time(text: str, words_per_minute: int = 150) -> float:
     word_count = len(text.split())
     return word_count / words_per_minute
 
-def format_podcast_intro() -> str:
-    """Generate podcast intro with current date."""
-    from utils.prompt_loader import prompt_loader
-    today = datetime.now().strftime("%B %d, %Y")
-    return prompt_loader.format_prompt("podcast-intro", date=today)
-
-def format_podcast_outro() -> str:
-    """Generate podcast outro."""
-    from utils.prompt_loader import prompt_loader
-    return prompt_loader.load_prompt("podcast-outro")
-
 def create_unique_output_directory(base_name: str = "podcast_run") -> str:
     """Create a unique directory for this run's output files."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

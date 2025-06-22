@@ -180,7 +180,7 @@ def main(args=None):
         
         # Save analysis to file
         from utils.helpers import get_output_file_path
-        analysis_file = get_output_file_path(Config.OUTPUT_DIR, "gpt-article-analysis.txt")
+        analysis_file = get_output_file_path(Config.OUTPUT_DIR, "article-analysis.txt")
         article_analyzer.save_analysis_to_file(analysis_result, analysis_file)
         logger.info(f"Saved article analysis to {analysis_file}")
         

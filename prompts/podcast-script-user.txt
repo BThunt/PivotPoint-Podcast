@@ -1,5 +1,5 @@
 
-Based on the analysis below from gpt-article-analysis.txt—containing the pre‑selected "top stories" for each category—create a {target_length}-minute podcast script.
+Based on the analysis below from article-analysis.txt—containing the pre‑selected "top stories" for each category—create a {target_length}-minute podcast script.
 
 {articles_text}
 

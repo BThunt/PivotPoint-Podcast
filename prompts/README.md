@@ -18,13 +18,9 @@ This directory contains all the prompts used by the OpenAI Podcast Generator. Ea
 
 ### Content Templates
 
-- **`podcast-intro.txt`** - Legacy template (not used with PivotPoint Podcast format).
-
-- **`podcast-outro.txt`** - Legacy template (not used with PivotPoint Podcast format).
-
 - **`fallback-script-content.txt`** - Content used when no news articles are available or when AI generation fails.
 
-**Note:** The new PivotPoint Podcast format includes intro/outro directly in the system prompt, so separate intro/outro templates are no longer used.
+**Note:** The PivotPoint Podcast format includes intro/outro directly in the system prompt for consistency and better AI integration.
 
 ## How to Edit Prompts
 
@@ -65,7 +61,7 @@ The article analysis system works in the following steps:
 2. **GPT Analysis**: Articles are sent to GPT with analysis prompts
 3. **Selection Process**: GPT selects up to 3 most interesting articles per category
 4. **Reasoning Provided**: For each selection, detailed reasoning is provided
-5. **Output Generated**: Results saved to `gpt-article-analysis.txt`
+5. **Output Generated**: Results saved to `article-analysis.txt`
 
 ### Customizing Article Selection Criteria
 
