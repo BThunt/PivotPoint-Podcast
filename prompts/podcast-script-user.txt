@@ -1,0 +1,25 @@
+
+Based on the analysis below from gpt-article-analysis.txt—containing the pre‑selected "top stories" for each category—create a {target_length}-minute podcast script.
+
+{articles_text}
+
+Remember the style guide you already know:
+
+• Natural spoken narration with [beat] / [long beat] pacing  
+• ≈ 150 words per minute (±5 %)  
+• Cold‑open → story segments (grouped logically) → optional quick‑hits → closing  
+• Weave each story’s operational signal **and** executive/business angle  
+• Smooth segues; avoid reading category headers verbatim unless it flows naturally
+
+When grouping, respect but don’t over‑announce these categories:
+
+1. APTs & Cyber‑Espionage  
+2. Arrests & Cybercrime  
+3. Breaches & Incidents  
+4. Cybersecurity IPOs  
+5. Cybersecurity Funding  
+6. Cybersecurity M&A  
+
+For each story: paraphrase the headline, explain why it matters to an MDR‑focused exec, highlight actionable or strategic takeaways, then transition smoothly to the next item.
+
+Return **only** the final script, ready for voice‑over.

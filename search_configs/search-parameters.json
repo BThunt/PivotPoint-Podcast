@@ -1,0 +1,39 @@
+{
+  "api_settings": {
+    "base_url": "https://google.serper.dev/news",
+    "timeout": 10,
+    "num_results": 10,
+    "geographic_location": "us",
+    "language": "en"
+  },
+  "date_filters": {
+    "default_days_back": 1,
+    "max_days_back": 7,
+    "date_format": "%Y-%m-%d"
+  },
+  "search_modes": {
+    "basic_keywords": {
+      "enabled": true,
+      "description": "Simple keyword-based searches",
+      "config_file": "basic-keywords.txt"
+    },
+    "google_dorks": {
+      "enabled": false,
+      "description": "Advanced Google Dork searches",
+      "config_file": "google-dorks.txt"
+    }
+  },
+  "filtering": {
+    "relevance_keywords_file": "relevance-keywords.txt",
+    "min_relevance_score": 1,
+    "max_articles_per_query": 10,
+    "max_articles_per_category": 5,
+    "duplicate_detection": "url_based"
+  },
+  "content_requirements": {
+    "require_title": true,
+    "require_snippet": true,
+    "min_title_length": 10,
+    "min_snippet_length": 20
+  }
+}

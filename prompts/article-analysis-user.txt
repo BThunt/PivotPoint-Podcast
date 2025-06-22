@@ -1,0 +1,25 @@
+Analyze the following cybersecurity news articles organized by category. For each category, select up to 3 of the most interesting and impactful articles based on the criteria provided in the system prompt.
+
+{articles_by_category}
+
+For each selected article, provide the following information in this exact format:
+
+## [CATEGORY NAME]
+
+### Selected Article 1
+**Title:** [Article Title]
+**URL:** [Article URL]
+**Date:** [Article Date]
+**Source:** [Article Source]
+**Category:** [Category Name]
+**Reasoning:** [Detailed explanation of why this article was selected over others in the category, what makes it particularly interesting or important, how it impacts the cybersecurity community, and what specific insights or lessons it provides]
+
+### Selected Article 2
+[Same format as above]
+
+### Selected Article 3
+[Same format as above]
+
+---
+
+Continue this format for each category. If a category has fewer than 3 interesting articles, select only the ones that meet the quality criteria. Focus on providing detailed, insightful reasoning for each selection that demonstrates deep understanding of the cybersecurity landscape and the specific value each article brings to security professionals.

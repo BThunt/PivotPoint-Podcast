@@ -1,0 +1,21 @@
+# Cybersecurity News Categories - Google Dorks
+# Each line represents a category-specific search query
+# Lines starting with # are comments and will be ignored
+
+# APTs & Cyber-Espionage
+("advanced persistent threat" OR APT OR "cyber espionage" OR "information operation" OR info-op) (campaign OR operation OR group OR intrusion OR spy)
+
+# Arrests & Cybercrime
+(arrest OR arrests OR takedown OR dismantled OR seized OR "law enforcement") (cybercrime OR malware OR botnet OR "dark web" OR illicit OR "threat intel")
+
+# Breaches & Incidents
+("data breach" OR breach OR hack OR "security incident" OR compromise OR ransomware OR "exposed data")
+
+# Cybersecurity IPOs
+cybersecurity (IPO OR "initial public offering" OR "going public" OR SPAC OR NASDAQ OR NYSE OR "public debut")
+
+# Cybersecurity Funding
+(cybersecurity OR infosec OR "security startup") (raises OR raised OR "Series A" OR "Series B" OR "seed funding" OR "venture capital" OR "funding round")
+
+# Cybersecurity M&A
+(cybersecurity OR infosec OR "security firm") (acquire OR acquires OR acquisition OR "merger" OR "M&A")
